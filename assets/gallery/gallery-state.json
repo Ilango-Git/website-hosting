@@ -1,0 +1,143 @@
+{
+  "version": "2026-07-original-pixels-1500kb-thumb640",
+  "sources": {
+    "assets/gallery-source/Awards/001.JPG": {
+      "mtime_ns": 1785429948044818000,
+      "size": 2220948,
+      "optimized": "assets/gallery/optimized/awards/001.jpg",
+      "thumbnail": "assets/gallery/thumbnails/awards/001.jpg"
+    },
+    "assets/gallery-source/guru/001.jpg": {
+      "mtime_ns": 1785413437039644200,
+      "size": 230041,
+      "optimized": "assets/gallery/optimized/guru/001.jpg",
+      "thumbnail": "assets/gallery/thumbnails/guru/001.jpg"
+    },
+    "assets/gallery-source/guru/002.JPG": {
+      "mtime_ns": 1704543544000000000,
+      "size": 6801766,
+      "optimized": "assets/gallery/optimized/guru/002.jpg",
+      "thumbnail": "assets/gallery/thumbnails/guru/002.jpg"
+    },
+    "assets/gallery-source/guru/003.jpg": {
+      "mtime_ns": 1785429911827886100,
+      "size": 2705016,
+      "optimized": "assets/gallery/optimized/guru/003.jpg",
+      "thumbnail": "assets/gallery/thumbnails/guru/003.jpg"
+    },
+    "assets/gallery-source/Pre-shoot/0003.JPG": {
+      "mtime_ns": 1785429422268135500,
+      "size": 2575841,
+      "optimized": "assets/gallery/optimized/pre-shoot/0003.jpg",
+      "thumbnail": "assets/gallery/thumbnails/pre-shoot/0003.jpg"
+    },
+    "assets/gallery-source/Pre-shoot/001.JPG": {
+      "mtime_ns": 1785429077554328900,
+      "size": 5079656,
+      "optimized": "assets/gallery/optimized/pre-shoot/001.jpg",
+      "thumbnail": "assets/gallery/thumbnails/pre-shoot/001.jpg"
+    },
+    "assets/gallery-source/Pre-shoot/002.JPG": {
+      "mtime_ns": 1785428954847368500,
+      "size": 4407133,
+      "optimized": "assets/gallery/optimized/pre-shoot/002.jpg",
+      "thumbnail": "assets/gallery/thumbnails/pre-shoot/002.jpg"
+    },
+    "assets/gallery-source/Pre-shoot/004.JPG": {
+      "mtime_ns": 1760119218483966300,
+      "size": 12479477,
+      "optimized": "assets/gallery/optimized/pre-shoot/004.jpg",
+      "thumbnail": "assets/gallery/thumbnails/pre-shoot/004.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/001.jpg": {
+      "mtime_ns": 1785427415370935500,
+      "size": 3773231,
+      "optimized": "assets/gallery/optimized/salangai-poojai/001.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/001.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/002.JPG": {
+      "mtime_ns": 1704550948000000000,
+      "size": 8070391,
+      "optimized": "assets/gallery/optimized/salangai-poojai/002.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/002.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/003.JPG": {
+      "mtime_ns": 1704549600000000000,
+      "size": 8441141,
+      "optimized": "assets/gallery/optimized/salangai-poojai/003.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/003.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/004.JPG": {
+      "mtime_ns": 1704547220000000000,
+      "size": 9243038,
+      "optimized": "assets/gallery/optimized/salangai-poojai/004.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/004.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/005.JPG": {
+      "mtime_ns": 1704546716000000000,
+      "size": 8742794,
+      "optimized": "assets/gallery/optimized/salangai-poojai/005.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/005.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/006.JPG": {
+      "mtime_ns": 1704553740000000000,
+      "size": 9389942,
+      "optimized": "assets/gallery/optimized/salangai-poojai/006.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/006.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/007.JPG": {
+      "mtime_ns": 1764601389332535200,
+      "size": 9780785,
+      "optimized": "assets/gallery/optimized/salangai-poojai/007.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/007.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2608.JPG": {
+      "mtime_ns": 1764601403370516300,
+      "size": 6623496,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2608.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2608.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2616.JPG": {
+      "mtime_ns": 1764601405967222100,
+      "size": 5922809,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2616.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2616.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2635.JPG": {
+      "mtime_ns": 1764601411770029000,
+      "size": 4955588,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2635.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2635.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2667.JPG": {
+      "mtime_ns": 1764601421850157600,
+      "size": 7840250,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2667.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2667.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2674.JPG": {
+      "mtime_ns": 1764601423544595500,
+      "size": 5762399,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2674.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2674.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2705.JPG": {
+      "mtime_ns": 1764601432653832100,
+      "size": 5906610,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2705.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2705.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2900.JPG": {
+      "mtime_ns": 1764601487331353800,
+      "size": 6258568,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2900.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2900.jpg"
+    },
+    "assets/gallery-source/Salangai Poojai/2A9A2906.JPG": {
+      "mtime_ns": 1764601488768139500,
+      "size": 5514023,
+      "optimized": "assets/gallery/optimized/salangai-poojai/2a9a2906.jpg",
+      "thumbnail": "assets/gallery/thumbnails/salangai-poojai/2a9a2906.jpg"
+    }
+  }
+}
