@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,follow" />
+    <title>Fee Payment Submission | Thulir Nrithyalaya Foundation</title>
+    <meta
+      name="description"
+      content="Submit fee payment details to Thulir Nrithyalaya Foundation for pending bank verification."
+    />
+    <link rel="icon" type="image/png" href="assets/images/logo-transparent.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/fee-payment-config.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/fee-payment-launcher.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="index.html#home" aria-label="Thulir Nrithyalaya Foundation home">
+          <img
+            src="assets/images/logo-transparent.png"
+            alt="Thulir Nrithyalaya Foundation logo"
+            draggable="false"
+          />
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" data-nav-toggle>
+          <span class="sr-only">Open menu</span>
+          <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+        <div class="site-menu" id="site-menu" data-site-menu>
+          <a href="index.html#about">About</a>
+          <a href="index.html#guru">Guru</a>
+          <a href="index.html#classes">Classes</a>
+          <a href="index.html#events">Events</a>
+          <a href="index.html#gallery">Gallery</a>
+          <a class="nav-payment" href="fee-payment.html" aria-current="page">Fee Payment</a>
+          <a href="index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="fee-page-main" id="main">
+      <section class="fee-page-heading">
+        <div class="container">
+          <p class="eyebrow">For existing parents</p>
+          <h1>Fee Payment Submission</h1>
+          <p>
+            After paying through the academy's existing UPI QR code or bank account, securely declare the transaction
+            and allocate the amount to one or more students and fee months.
+          </p>
+        </div>
+      </section>
+
+      <aside class="fee-status-band" role="note">
+        <div class="container">
+          <strong>Declaration only:</strong>
+          <span>The payment remains Pending Bank Verification until it is matched with the bank statement.</span>
+        </div>
+      </aside>
+
+      <section class="fee-launch-section" aria-labelledby="fee-process-title">
+        <div class="container">
+          <div class="fee-process-grid" id="fee-process-title">
+            <article class="fee-process-step">
+              <span aria-hidden="true">1</span>
+              <h2>Complete Payment</h2>
+              <p>Pay using the academy's existing UPI QR code or bank account and retain the transaction reference.</p>
+            </article>
+            <article class="fee-process-step">
+              <span aria-hidden="true">2</span>
+              <h2>Submit Declaration</h2>
+              <p>Verify the student roll number and allocate the declared amount to the applicable fee month.</p>
+            </article>
+            <article class="fee-process-step">
+              <span aria-hidden="true">3</span>
+              <h2>Await Verification</h2>
+              <p>Keep the acknowledgement while the academy matches the UTR and amount with the bank statement.</p>
+            </article>
+          </div>
+
+          <div class="fee-launch-panel">
+            <div>
+              <p class="eyebrow">Secure declaration form</p>
+              <h2>Open the Parent Fee Form</h2>
+              <p>
+                The secure form opens from Google Apps Script. Student validation and submission storage happen only
+                in the private Google Sheet backend, not in this public GitHub repository.
+              </p>
+            </div>
+            <div class="fee-launch-actions">
+              <a
+                class="button primary"
+                href="#"
+                aria-disabled="true"
+                data-fee-app-link
+              >
+                Open Fee Submission
+              </a>
+              <p class="fee-launch-status" data-fee-app-status>Checking form availability...</p>
+            </div>
+          </div>
+
+          <p class="fee-help-note">
+            Never enter a UPI PIN, card number, bank password, or other banking credentials. For assistance, call
+            <a href="tel:+919384645942"><strong>+91 93846 45942</strong></a>.
+          </p>
+          <noscript>
+            <p class="fee-help-note">JavaScript is required to open the secure fee submission form.</p>
+          </noscript>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <img
+          src="assets/images/logo-transparent.png"
+          alt="Thulir Nrithyalaya Foundation logo"
+          draggable="false"
+        />
+        <p>Thulir Nrithyalaya Foundation, Santhosapuram, Medavakkam, Chennai.</p>
+        <p>
+          <a href="tel:+919384645942">+91 93846 45942</a>
+          <span aria-hidden="true">|</span>
+          <a href="mailto:marai.jesu@gmail.com">marai.jesu@gmail.com</a>
+        </p>
+        <p class="copyright">
+          &copy; <span data-current-year></span> Thulir Nrithyalaya Foundation. All images and content are protected.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

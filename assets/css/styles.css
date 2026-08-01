@@ -161,6 +161,23 @@ select {
   transform: scaleX(1);
 }
 
+.site-menu .nav-payment {
+  min-height: 38px;
+  margin-inline: 0.25rem;
+  color: var(--paper);
+  background: var(--maroon);
+}
+
+.site-menu .nav-payment::after {
+  display: none;
+}
+
+.site-menu .nav-payment:hover,
+.site-menu .nav-payment:focus-visible {
+  color: var(--paper);
+  background: var(--maroon-dark);
+}
+
 .nav-toggle {
   display: none;
   align-items: center;
@@ -997,6 +1014,134 @@ h3 {
   outline-offset: 3px;
 }
 
+.fee-page-main {
+  min-height: calc(100svh - var(--header-height));
+  background: var(--ivory);
+}
+
+.fee-page-heading {
+  padding: clamp(3.5rem, 7vw, 6rem) 0 2rem;
+}
+
+.fee-page-heading h1 {
+  max-width: 850px;
+  color: var(--maroon-dark);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(2.6rem, 6vw, 5rem);
+  line-height: 1.08;
+}
+
+.fee-page-heading > p:last-child {
+  max-width: 760px;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.fee-status-band {
+  padding: 1rem 0;
+  color: #493d32;
+  background: #fff4d8;
+  border-block: 1px solid rgba(184, 138, 46, 0.34);
+}
+
+.fee-status-band .container {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+}
+
+.fee-status-band strong {
+  color: var(--maroon-dark);
+}
+
+.fee-launch-section {
+  padding: clamp(2.8rem, 6vw, 5rem) 0;
+  background: var(--paper);
+}
+
+.fee-process-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-block: 1px solid var(--line);
+}
+
+.fee-process-step {
+  padding: 1.2rem;
+}
+
+.fee-process-step + .fee-process-step {
+  border-left: 1px solid var(--line);
+}
+
+.fee-process-step span {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--paper);
+  background: var(--maroon);
+  border-radius: 50%;
+  font-weight: 800;
+}
+
+.fee-process-step h2 {
+  font-size: 1.25rem;
+}
+
+.fee-process-step p {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.fee-launch-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  padding: clamp(1.3rem, 3vw, 2rem);
+  background: var(--mist);
+  border: 1px solid rgba(132, 189, 53, 0.3);
+  border-left: 5px solid var(--leaf);
+  border-radius: var(--radius);
+}
+
+.fee-launch-panel h2 {
+  font-size: clamp(1.7rem, 3vw, 2.35rem);
+}
+
+.fee-launch-panel p {
+  max-width: 680px;
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.fee-launch-actions {
+  display: grid;
+  justify-items: stretch;
+  gap: 0.55rem;
+  min-width: 230px;
+}
+
+.fee-launch-actions .button[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.56;
+}
+
+.fee-launch-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  text-align: center;
+}
+
+.fee-help-note {
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 @media (max-width: 900px) {
   :root {
     --header-height: 74px;
@@ -1056,6 +1201,20 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .fee-process-grid,
+  .fee-launch-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .fee-process-step + .fee-process-step {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .fee-launch-actions {
+    min-width: 0;
+  }
+
   .footer-inner {
     display: grid;
   }
@@ -1094,6 +1253,12 @@ h3 {
 
   .button {
     width: 100%;
+  }
+
+  .fee-status-band .container {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
   }
 
   .section {
